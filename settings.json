@@ -1,0 +1,51 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "workbench.colorCustomizations": {
+    "editorBracketMatch.background": "#f008",
+    "editorBracketMatch.border": "#f00"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.dragAndDrop": false,
+  "editor.hover.enabled": false,
+  "editor.occurrencesHighlight": false,
+  "editor.parameterHints.enabled": false,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "files.trimTrailingWhitespace": true,
+  "remove-empty-lines.allowedNumberOfEmptyLines": 0,
+  "editor.colorDecorators": false,
+  "editor.wordWrap": "off",
+  "html.format.wrapLineLength": 99999999999,
+  "extensions.ignoreRecommendations": true,
+  "explorer.confirmDelete": false,
+  "highlight-matching-tag.showPath": false,
+  "highlight-matching-tag.highlightFromContent": true,
+  "debug.javascript.codelens.npmScripts": "never",
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "#FD9621"
+      }
+    }
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "git.ignoreMissingGitWarning": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Darcula",
+  "editor.fontFamily": "Cascadia Code",
+  "explorer.autoReveal": false,
+  "files.associations": {
+    "*.svelte": "html",
+    "*.vue": "html"
+  },
+  "files.insertFinalNewline": true,
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "security.workspace.trust.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  // "window.zoomLevel": 1,
+  "workbench.startupEditor": "none",
+  "files.eol": "\r\n"
+}

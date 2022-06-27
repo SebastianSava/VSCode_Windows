@@ -1,0 +1,102 @@
+{
+  // JavaScript
+  "csl": {
+    "prefix": "csl",
+    "body": "console.log($0);"
+  },
+  // CSS
+  "mmin": {
+    "prefix": "mmin",
+    "body": [
+      "@media only screen and (min-width: ${1:769}px) {",
+      "\t.${2:clasa}",
+      "}"
+    ]
+  },
+  "mmax": {
+    "prefix": "mmax",
+    "body": [
+      "@media only screen and (max-width: ${1:768}px) {",
+      "\t.${2:clasa}",
+      "}"
+    ]
+  },
+  "afw": {
+    "prefix": "afw",
+    "body": [
+      "position: absolute;",
+      "top: 0;",
+      "left: 0;",
+      "right: 0;",
+      "bottom: 0;",
+      "width: 100%;",
+      "height: 100%;",
+    ]
+  },
+  "comm": {
+    "prefix": "comm",
+    "body": [
+      "/* === ${1:COMENTARIU} === */"
+    ]
+  },
+  // PHP
+  "popen": {
+    "prefix": "popen",
+    "body": [
+      "<?php$0?>"
+    ]
+  },
+  "pif": {
+    "prefix": "pif",
+    "body": [
+      "if ($${1:field_name}) {",
+      "\techo $${1:field_name};",
+      "}"
+    ]
+  },
+  "phpif": {
+    "prefix": "phpif",
+    "body": [
+      "<?php if ($${1:field_name}) { ?>",
+      "\t<?php echo $${1:field_name}; ?>",
+      "<?php } ?>"
+    ]
+  },
+  "pvar": {
+    "prefix": "pvar",
+    "body": "$${1:field_name} = get_sub_field('${1:field_name}');"
+  },
+  "peach": {
+    "prefix": "peach",
+    "body": [
+      "foreach ($${1:items} as $${2:item}) {",
+      "\techo $${2:item};",
+      "}"
+    ]
+  },
+  "phpeach": {
+    "prefix": "phpeach",
+    "body": [
+      "<?php foreach ($${1:items} as $${2:item}) { ?>",
+      "\t<?php echo $${2:item}; ?>",
+      "<?php } ?>"
+    ]
+  },
+  "vd": {
+    "prefix": "vd",
+    "body": "var_dump($0);"
+  },
+  // HTML
+  "mdl": {
+    "prefix": "mdl",
+    "body": [
+      "<div class=\"module module--${1:name}\">",
+      "\t<div class=\"module__container module__container--outer\">",
+      "\t\t<div class=\"module__container module__container--inner\">",
+      "\t\t\t${2:content}",
+      "\t\t</div>",
+      "\t</div>",
+      "</div>"
+    ]
+  }
+}
