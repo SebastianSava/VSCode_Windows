@@ -30,20 +30,14 @@
       "right: 0;",
       "bottom: 0;",
       "width: 100%;",
-      "height: 100%;",
-    ]
-  },
-  "comm": {
-    "prefix": "comm",
-    "body": [
-      "/* === ${1:COMENTARIU} === */"
+      "height: 100%;"
     ]
   },
   // PHP
   "popen": {
     "prefix": "popen",
     "body": [
-      "<?php$0?>"
+      "<?php echo $${1:variable_name}; ?>"
     ]
   },
   "pif": {
@@ -90,13 +84,13 @@
   "mdl": {
     "prefix": "mdl",
     "body": [
-      "<div class=\"module module--${1:name}\">",
+      "<section class=\"module module--${1:name}\">",
       "\t<div class=\"module__container module__container--outer\">",
       "\t\t<div class=\"module__container module__container--inner\">",
       "\t\t\t${2:content}",
       "\t\t</div>",
       "\t</div>",
-      "</div>"
+      "</section>"
     ]
   }
 }
