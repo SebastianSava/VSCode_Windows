@@ -45,7 +45,7 @@
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "security.workspace.trust.enabled": false,
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": 0.1,
+  "window.zoomLevel": -0.3,
   "workbench.startupEditor": "none",
   "files.eol": "\r\n"
 }

@@ -4,6 +4,14 @@
     "prefix": "csl",
     "body": "console.log($0);"
   },
+  "edf": {
+    "prefix": "edf",
+    "body": [
+      "export default function ${1:Name}() {",
+      "\treturn ($0);",
+      "}"
+    ]
+  },
   // CSS
   "mmin": {
     "prefix": "mmin",
@@ -87,6 +95,19 @@
       "<section class=\"module module--${1:name}\">",
       "\t<div class=\"module__container module__container--outer\">",
       "\t\t<div class=\"module__container module__container--inner\">",
+      "\t\t\t${2:content}",
+      "\t\t</div>",
+      "\t</div>",
+      "</section>"
+    ]
+  },
+  // React
+  "cmp": {
+    "prefix": "cmp",
+    "body": [
+      "<section className=\"component component--${1:name}\">",
+      "\t<div className=\"component__container component__container--outer\">",
+      "\t\t<div className=\"component__container component__container--inner\">",
       "\t\t\t${2:content}",
       "\t\t</div>",
       "\t</div>",
