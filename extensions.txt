@@ -1,5 +1,6 @@
 code --install-extension christian-kohler.path-intellisense
 code --install-extension Danny1461.css-semicolon-fix
+code --install-extension ecmel.vscode-html-css
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension glenn2223.live-sass

@@ -34,7 +34,7 @@
   "git.ignoreMissingGitWarning": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Darcula",
-  "editor.fontFamily": "Cascadia Code",
+  "editor.fontFamily": "JetBrains Mono Medium",
   "explorer.autoReveal": false,
   "files.associations": {
     "*.svelte": "html",
@@ -45,7 +45,8 @@
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "security.workspace.trust.enabled": false,
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": -0.3,
+  "window.zoomLevel": -0.5,
+  "editor.lineHeight": 1.65,
   "workbench.startupEditor": "none",
   "files.eol": "\r\n"
 }
