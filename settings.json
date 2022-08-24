@@ -47,6 +47,7 @@
   "explorer.confirmDragAndDrop": false,
   "window.zoomLevel": -0.5,
   "editor.lineHeight": 1.65,
+  "editor.letterSpacing": 0.3,
   "workbench.startupEditor": "none",
   "files.eol": "\r\n"
 }
