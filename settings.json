@@ -45,9 +45,10 @@
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "security.workspace.trust.enabled": false,
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": -0.5,
+  "window.zoomLevel": -1,
   "editor.lineHeight": 1.65,
   "editor.letterSpacing": 0.3,
   "workbench.startupEditor": "none",
-  "files.eol": "\r\n"
+  "files.eol": "\r\n",
+  "glassit.alpha": 240
 }
