@@ -1,6 +1,7 @@
 code --install-extension christian-kohler.path-intellisense
 code --install-extension Danny1461.css-semicolon-fix
 code --install-extension ecmel.vscode-html-css
+code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension glenn2223.live-sass
@@ -10,7 +11,6 @@ code --install-extension mrmlnc.vscode-scss
 code --install-extension PKief.material-icon-theme
 code --install-extension ritwickdey.LiveServer
 code --install-extension rokoroku.vscode-theme-darcula
-code --install-extension s-nlf-fh.glassit
 code --install-extension usernamehw.remove-empty-lines
 code --install-extension vincaslt.highlight-matching-tag
 code --install-extension wix.vscode-import-cost

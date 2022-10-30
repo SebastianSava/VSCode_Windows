@@ -45,10 +45,17 @@
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "security.workspace.trust.enabled": false,
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0.1,
   "editor.lineHeight": 1.65,
   "editor.letterSpacing": 0.3,
   "workbench.startupEditor": "none",
   "files.eol": "\r\n",
-  "glassit.alpha": 240
+
+  // prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.quoteProps": "consistent",
+  "prettier.trailingComma": "none",
+  "prettier.endOfLine": "crlf"
 }
