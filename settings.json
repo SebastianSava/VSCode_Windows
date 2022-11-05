@@ -49,5 +49,13 @@
   "editor.lineHeight": 1.65,
   "editor.letterSpacing": 0.3,
   "workbench.startupEditor": "none",
-  "files.eol": "\r\n"
+  "files.eol": "\r\n",
+
+  // prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.quoteProps": "consistent",
+  "prettier.trailingComma": "none",
+  "prettier.endOfLine": "crlf"
 }
