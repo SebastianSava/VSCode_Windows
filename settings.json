@@ -53,7 +53,9 @@
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.printWidth": 160,
+  "[scss]": {
+    "editor.defaultFormatter": null
+  },
   "prettier.tabWidth": 2,
   "prettier.singleQuote": true,
   "prettier.quoteProps": "consistent",
