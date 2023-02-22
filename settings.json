@@ -60,6 +60,5 @@
   "prettier.singleQuote": true,
   "prettier.quoteProps": "consistent",
   "prettier.trailingComma": "none",
-  "prettier.endOfLine": "crlf",
-  "emmet.showExpandedAbbreviation": "never"
+  "prettier.endOfLine": "crlf"
 }
