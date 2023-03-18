@@ -4,7 +4,6 @@ code --install-extension ecmel.vscode-html-css
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
-code --install-extension gencay.vscode-chatgpt
 code --install-extension glenn2223.live-sass
 code --install-extension mitchdenny.ecdc
 code --install-extension mrmlnc.vscode-apache
