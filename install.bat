@@ -1,26 +1,22 @@
 @echo off
 
-:: install extensions
-cd "C:\Users\ASUS\Desktop"
-wget -O "extensions.ps1" "https://sebastiansava.github.io/VSCode_Windows/extensions.txt"
-Powershell.exe - < extensions.ps1
-del extensions.ps1
+:: variables
+set baseDir="C:\Users\ASUS"
+set baseUrl="https://sebastiansava.github.io/VSCode_Windows"
 
-:: go to VSCode installation folder
-cd "C:\Users\ASUS\AppData\Roaming\Code\User"
+:: install extensions
+curl -o "%baseDir%\Desktop\extensions.ps1" "%baseUrl%/extensions.txt"
+Powershell.exe - < "%baseDir%\Desktop\extensions.ps1"
+del "%baseDir%\Desktop\extensions.ps1"
 
 :: download 'settings' file
-wget -O "settings.json" "https://sebastiansava.github.io/VSCode_Windows/settings.json"
+curl -o "%baseDir%\AppData\Roaming\Code\User\settings.json" --create-dirs "%baseUrl%/settings.json"
 
 :: download 'keybindings' file
-wget -O "keybindings.json" "https://sebastiansava.github.io/VSCode_Windows/keyboard.json"
-
-:: go to 'snippets' folder
-if not exist "snippets" mkdir "snippets"
-cd "./snippets"
+curl -o "%baseDir%\AppData\Roaming\Code\User\keybindings.json" --create-dirs "%baseUrl%/keyboard.json"
 
 :: download 'snippets' file
-wget -O "global.code-snippets" "https://sebastiansava.github.io/VSCode_Windows/snippets.json"
+curl -o "%baseDir%\AppData\Roaming\Code\User\snippets\global.code-snippets" --create-dirs "%baseUrl%/snippets.json"
 
 :: exit
 exit
