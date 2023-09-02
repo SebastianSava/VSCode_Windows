@@ -1,7 +1,7 @@
 @echo off
 
 :: variables
-set baseDir="C:\Users\ASUS"
+set baseDir="C:\Users\%USERNAME%"
 set baseUrl="https://sebastiansava.github.io/VSCode_Windows"
 
 :: install extensions
