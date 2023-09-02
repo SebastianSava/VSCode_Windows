@@ -51,18 +51,17 @@
   "workbench.startupEditor": "none",
   "files.eol": "\r\n",
 
-  // prettier
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "[scss]": {
-  //   "editor.defaultFormatter": null
-  // },
+  // php
   "[php]": {
     "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
   },
+  "php.format.rules.keepControlStatementsOnOneLine": true,
+
+  // prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.tabWidth": 2,
   "prettier.singleQuote": true,
   "prettier.quoteProps": "consistent",
   "prettier.trailingComma": "none",
-  "prettier.endOfLine": "crlf",
-  "php.format.rules.keepControlStatementsOnOneLine": true
+  "prettier.endOfLine": "crlf"
 }

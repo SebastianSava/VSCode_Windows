@@ -41,6 +41,10 @@
       "height: 100%;"
     ]
   },
+  "clmp": {
+    "prefix": "clmp",
+    "body": "clmp(${1:20}px, ${2:30}px, 768px, 1600px);"
+  },
   // PHP
   "popen": {
     "prefix": "popen",
