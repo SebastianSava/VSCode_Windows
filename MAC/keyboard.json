@@ -4,7 +4,7 @@
     "command": "editor.action.sortLinesAscending"
   },
   {
-    "key": "shift+cmd+d",
+    "key": "ctrl+shift+d",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
   },
@@ -18,11 +18,11 @@
     "command": "remove-empty-lines.inDocument"
   },
   {
-    "key": "f12",
+    "key": "ctrl+f",
     "command": "editor.action.reindentlines"
   },
   {
-    "key": "shift+cmd+p",
+    "key": "ctrl+shift+p",
     "command": "workbench.action.editor.changeLanguageMode",
     "when": "!notebookEditorFocused"
   },
@@ -42,7 +42,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+e",
+    "key": "ctrl+e",
     "command": "extension.convertSelection",
     "when": "editorTextFocus"
   },
