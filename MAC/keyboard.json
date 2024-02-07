@@ -1,0 +1,54 @@
+[
+  {
+    "key": "ctrl+s",
+    "command": "editor.action.sortLinesAscending"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "remove-empty-lines.inDocument"
+  },
+  {
+    "key": "f12",
+    "command": "editor.action.reindentlines"
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "workbench.action.editor.changeLanguageMode",
+    "when": "!notebookEditorFocused"
+  },
+  {
+    "key": "cmd+k m",
+    "command": "-workbench.action.editor.changeLanguageMode",
+    "when": "!notebookEditorFocused"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "editor.action.trimTrailingWhitespace",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+x",
+    "command": "-editor.action.trimTrailingWhitespace",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+e",
+    "command": "extension.convertSelection",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+c",
+    "command": "-extension.convertSelection",
+    "when": "editorTextFocus"
+  }
+]
