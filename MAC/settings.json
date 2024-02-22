@@ -63,5 +63,6 @@
   "prettier.singleQuote": true,
   "prettier.quoteProps": "consistent",
   "prettier.trailingComma": "none",
-  "prettier.endOfLine": "crlf"
+  "prettier.endOfLine": "crlf",
+  "editor.stickyScroll.enabled": false
 }
