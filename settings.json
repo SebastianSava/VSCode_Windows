@@ -9,7 +9,7 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.dragAndDrop": false,
   "editor.hover.enabled": false,
-  "editor.occurrencesHighlight": false,
+  "editor.occurrencesHighlight": "off",
   "editor.parameterHints.enabled": false,
   "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
   "files.trimTrailingWhitespace": true,
@@ -45,17 +45,11 @@
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "security.workspace.trust.enabled": false,
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": 0.4,
+  "window.zoomLevel": 0.8,
   "editor.lineHeight": 1.65,
   "editor.letterSpacing": 0.3,
   "workbench.startupEditor": "none",
   "files.eol": "\r\n",
-
-  // php
-  "[php]": {
-    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
-  },
-  "php.format.rules.keepControlStatementsOnOneLine": true,
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -64,5 +58,6 @@
   "prettier.quoteProps": "consistent",
   "prettier.trailingComma": "none",
   "prettier.endOfLine": "crlf",
-  "editor.stickyScroll.enabled": false
+  "editor.stickyScroll.enabled": false,
+  "explorer.compactFolders": false
 }

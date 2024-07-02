@@ -1,9 +1,5 @@
 code --install-extension christian-kohler.path-intellisense
-code --install-extension Codeium.codeium
 code --install-extension Danny1461.css-semicolon-fix
-code --install-extension DEVSENSE.composer-php-vscode
-code --install-extension DEVSENSE.phptools-vscode
-code --install-extension DEVSENSE.profiler-php-vscode
 code --install-extension ecmel.vscode-html-css
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-close-tag
